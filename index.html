@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="./css/libs.css" />
+        <link rel="stylesheet" href="./css/app.css" />
+        <script src="./js/libs.js" defer="defer"></script>
+        <script src="./js/app.js" defer="defer"></script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0" nonce="QH5eTQTz"></script>
+        <div class="page">
+            <!-- header-->
+            <header class="header">
+                <div class="header__wrapper">
+                    <div class="container">
+                        <div class="header__inner"><a class="logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                            <div class="header__elements">
+                                <section class="navbar js-navbar">
+                                    <div class="navbar__backdrop js-navbar-toggle"></div>
+                                    <div class="navbar__wrapper">
+                                        <div class="navbar__header"><a class="logo" href="./index.html"><img src="./images/logo.png" alt="" /></a>
+                                            <button class="navbar-toggle js-navbar-toggle ml-auto"><span></span><span></span><span></span></button>
+                                        </div>
+                                        <div class="navbar__body">
+                                            <ul class="menu menu-root">
+                                                <li class="menu-item"><a class="menu-link active" href="./index.html">Trang chủ</a>
+                                                </li>
+                                                <li class="menu-item menu-item-group"><a class="menu-link" href="./about.html">Giới thiệu</a><span class="menu-toggle"></span>
+                                                    <ul class="menu menu-sub">
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                        </li>
+                                                        <li class="menu-item"><a class="menu-link" href="#!">Dropdown</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Hướng dẫn đăng ký</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="#!">Chính sách môi giới</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./faq.html">FAQ</a>
+                                                </li>
+                                                <li class="menu-item"><a class="menu-link" href="./contact.html">Liên hệ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section><a class="header__item header__link" href="#!">Tạo tài khoản</a>
+                                <nav class="lang header__item"><a class="lang__toggle" href="#!">ENG<i class="fa fa-angle-down ml-2"></i></a>
+                                    <div class="lang__dropdown"><a class="lang__item" href="#!">VIE</a><a class="lang__item" href="#!">ENG</a><a class="lang__item" href="#!">JPN</a></div>
+                                </nav>
+                                <label class="header__item header__like">
+                                    <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                </label><a class="header__item header__btn ml-3" href="#!">Đăng nhập</a>
+                                <button class="navbar-toggle d-xl-none js-navbar-toggle ml-3"><span></span><span></span><span></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="page__content">
+                <!-- main content-->
+                <!-- counting-->
+                <nav class="counting">
+                    <div class="container">
+                        <div class="counting__inner">
+                            <div class="counting__grid">
+                                <div class="counting__item">
+                                    <div>Đang có</div>
+                                    <div><strong class="text-danger">12000</strong> môi giới</div>
+                                </div>
+                                <div class="counting__item">
+                                    <div>Đang có</div>
+                                    <div><strong class="text-danger">300</strong> dự án</div>
+                                </div>
+                                <div class="counting__item">
+                                    <div>Hôm nay</div>
+                                    <div><strong class="text-danger">30</strong> booking</div>
+                                </div>
+                                <div class="counting__item">
+                                    <div>Hôm nay</div>
+                                    <div><strong class="text-danger">70</strong> môi giới mới</div>
+                                </div>
+                                <div class="counting__item">
+                                    <div>Hôm nay</div>
+                                    <div><strong class="text-danger">348 tỷ vnđ giao dịch</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Banner-->
+                <div class="banner-slider">
+                    <div class="swiper-container banner-slider__container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="banner-slider__frame"><img src="./images/banner-slide.jpg" alt="" /></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner-slider__frame"><img src="./images/banner-slide.jpg" alt="" /></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner-slider__frame"><img src="./images/banner-slide.jpg" alt="" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Search box-->
+                <form class="search">
+                    <div class="container">
+                        <div class="search__inner">
+                            <div class="search__grid">
+                                <div class="search__group">
+                                    <div class="search__label media">
+                                        <div class="media-body">
+                                            <div>Quick</div>
+                                            <div>Search</div>
+                                        </div><i class="fa fa-2x fa-search ml-2"></i>
+                                    </div>
+                                </div>
+                                <div class="search__group">
+                                    <input class="form-control" type="text" placeholder="Enter Your Keyworld ..." />
+                                </div>
+                                <div class="search__group search__group--select">
+                                    <select class="custom-select">
+                                        <option>All City</option>
+                                        <option>All City</option>
+                                        <option>All City</option>
+                                    </select>
+                                </div>
+                                <div class="search__group search__group--select">
+                                    <select class="custom-select">
+                                        <option>All Type</option>
+                                        <option>All Type</option>
+                                        <option>All Type</option>
+                                    </select>
+                                </div>
+                                <div class="search__group">
+                                    <button class="search__btn" type="submit">Search<i class="fa fa-search ml-1"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- Giới thiệu-->
+                <section class="about section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 mb-30 mb-lg-0">
+                                <div class="about__title">#GIỚI THIỆU</div>
+                                <div class="about__subtitle">Hệ thống môi giới bất động sản</div>
+                                <div class="about__content">
+                                    <p>Đây là hệ thống đầu tiên của Việt Nam cho phép bất kỳ nười nào muốn tham gia kinh doanh BĐS đều có thể tham gia và thực hiện việc buôn bán BĐS một cách dễ dàng với đội ngũ hỗ trợ tuyệt vời của chúng tôi.</p>
+                                    <p class="text-center"><img src="./images/about-content-img.jpg" alt=""></p>
+                                </div>
+                                <div class="text-center mt-30"><a class="about__btn" href="#!">Đăng ký</a></div>
+                            </div>
+                            <div class="col-lg-6"><img class="d-block w-100" src="./images/about-img.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Dự án bất động sản-->
+                <section class="section">
+                    <div class="container">
+                        <div class="section__header">
+                            <h2 class="section__title">Dự án Bất Động Sản</h2>
+                            <ul class="nav section__tabs">
+                                <li class="nav-item"><a class="nav-link js-project-tab active" href="#broker-tab-1" data-toggle="tab">Tất cả dự án</a></li>
+                                <li class="nav-item"><a class="nav-link js-project-tab" href="#project-tab-2" data-toggle="tab">Hà Nội</a></li>
+                                <li class="nav-item"><a class="nav-link js-project-tab" href="#project-tab-3" data-toggle="tab">Hồ Chí Minh</a></li>
+                                <li class="nav-item"><a class="nav-link js-project-tab" href="#project-tab-4" data-toggle="tab">Vũng Tàu</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="project-slider">
+                            <div class="project-slider__pagination"></div>
+                            <div class="swiper-container project-slider__container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-2.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-3.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-4.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-1.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-2.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-3.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-4.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-1.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-2.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-3.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-4.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-1.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-2.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-3.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-4.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-1.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-2.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <div class="project__frame"><img src="./images/project-3.jpg" alt="" /></div>
+                                            <div class="project__overlay">
+                                                <h3 class="project__name"><a href="#!"> Tên dự án</a></h3>
+                                                <div class="project__addr">ĐỊa chỉ của dự án</div>
+                                                <div class="project__params"><span>Thông số dự án</span><span>12 Beds</span><span>9 Baths</span><span>3 Gara</span></div>
+                                                <div class="project__price">Giá bán dự án vnđ</div>
+                                                <div class="project__price">Hoa hồng dự án</div>
+                                                <div class="project__btns"><a class="project__btn" href="#!"><i class="fa fa-search"></i></a>
+                                                    <label class="project__btn project__btn--like">
+                                                        <input type="checkbox" /><i class="fa fa-heart-o"></i><i class="fa fa-heart"></i>
+                                                    </label><a class="project__btn" href="#!"><i class="fa fa-share-alt"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane show active" id="project-tab-1"></div>
+                            <div class="tab-pane" id="project-tab-2"></div>
+                            <div class="tab-pane" id="project-tab-3"></div>
+                            <div class="tab-pane" id="project-tab-4"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Môi giới nổi bật-->
+                <section class="section">
+                    <div class="container">
+                        <div class="section__header">
+                            <h2 class="section__title">Môi giới nổi bật</h2>
+                            <ul class="nav section__tabs">
+                                <li class="nav-item"><a class="nav-link js-broker-tab active" href="#broker-tab-1" data-toggle="tab">Tất cả môi giới</a></li>
+                                <li class="nav-item"><a class="nav-link js-broker-tab" href="#broker-tab-2" data-toggle="tab">Hà Nội</a></li>
+                                <li class="nav-item"><a class="nav-link js-broker-tab" href="#broker-tab-3" data-toggle="tab">Hồ Chí Minh</a></li>
+                                <li class="nav-item"><a class="nav-link js-broker-tab" href="#broker-tab-4" data-toggle="tab">Vũng Tàu</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane show active" id="broker-tab-1">
+                                <div class="broker-slider">
+                                    <div class="broker-slider__container swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-1.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN VĂN NAM</div>
+                                                    <div class="broker__info">
+                                                        <div>1.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 10</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-2.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN THỊ HOA</div>
+                                                    <div class="broker__info">
+                                                        <div>6.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-3.jpg" alt="" /></a>
+                                                    <div class="broker__name">TRẦN HOÀNG HẢI</div>
+                                                    <div class="broker__info">
+                                                        <div>15.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 6</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-4.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN VĂN NAM</div>
+                                                    <div class="broker__info">
+                                                        <div>1.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 10</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="broker-tab-2">
+                                <div class="broker-slider">
+                                    <div class="broker-slider__container swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-1.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN VĂN NAM</div>
+                                                    <div class="broker__info">
+                                                        <div>1.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 10</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-2.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN THỊ HOA</div>
+                                                    <div class="broker__info">
+                                                        <div>6.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-3.jpg" alt="" /></a>
+                                                    <div class="broker__name">TRẦN HOÀNG HẢI</div>
+                                                    <div class="broker__info">
+                                                        <div>15.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 6</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-4.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN VĂN NAM</div>
+                                                    <div class="broker__info">
+                                                        <div>1.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 10</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="broker-tab-3">
+                                <div class="broker-slider">
+                                    <div class="broker-slider__container swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-1.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN VĂN NAM</div>
+                                                    <div class="broker__info">
+                                                        <div>1.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 10</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-2.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN THỊ HOA</div>
+                                                    <div class="broker__info">
+                                                        <div>6.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-3.jpg" alt="" /></a>
+                                                    <div class="broker__name">TRẦN HOÀNG HẢI</div>
+                                                    <div class="broker__info">
+                                                        <div>15.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 6</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-4.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN VĂN NAM</div>
+                                                    <div class="broker__info">
+                                                        <div>1.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 10</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="broker-tab-4">
+                                <div class="broker-slider">
+                                    <div class="broker-slider__container swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-1.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN VĂN NAM</div>
+                                                    <div class="broker__info">
+                                                        <div>1.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 10</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-2.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN THỊ HOA</div>
+                                                    <div class="broker__info">
+                                                        <div>6.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 8</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-3.jpg" alt="" /></a>
+                                                    <div class="broker__name">TRẦN HOÀNG HẢI</div>
+                                                    <div class="broker__info">
+                                                        <div>15.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 6</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="broker"><a class="broker__avatar" href="#!"><img src="./images/avatar-4.jpg" alt="" /></a>
+                                                    <div class="broker__name">NGUYỄN VĂN NAM</div>
+                                                    <div class="broker__info">
+                                                        <div>1.2450.000.000 VNĐ</div>
+                                                        <div>120 giao dịch</div>
+                                                        <div class="mt-1">Xếp hạng: 10</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Chia sẻ ý kiến-->
+                <section class="section">
+                    <div class="container">
+                        <div class="section__header">
+                            <h2 class="section__title">Chia sẻ ý kiến</h2>
+                        </div>
+                        <div class="testimonial-slider">
+                            <div class="testimonial-slider__prev"><i class="fa fa-angle-left"></i></div>
+                            <div class="testimonial-slider__next"><i class="fa fa-angle-right"></i></div>
+                            <div class="testimonial-slider__container swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="testimonial">
+                                            <div class="testimonial__wrapper">
+                                                <div class="testimonial__avatar"><img src="./images/avatar-4.jpg" alt="" /></div>
+                                                <div class="testimonial__name">Nguyễn Thị Hoa /Trưởng phòng</div>
+                                                <div class="testimonial__text">Nhờ có hệ thống môi giới chúng tôi đã đổi đời</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial">
+                                            <div class="testimonial__wrapper">
+                                                <div class="testimonial__avatar"><img src="./images/avatar-1.jpg" alt="" /></div>
+                                                <div class="testimonial__name">Trần Hoàng Hải / CEO</div>
+                                                <div class="testimonial__text">Nhờ có hệ thống môi giới chúng tôi đã đổi đời</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial">
+                                            <div class="testimonial__wrapper">
+                                                <div class="testimonial__avatar"><img src="./images/avatar-2.jpg" alt="" /></div>
+                                                <div class="testimonial__name">Nguyễn Thị Hoa /Trưởng phòng</div>
+                                                <div class="testimonial__text">Nhờ có hệ thống môi giới chúng tôi đã đổi đời</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="testimonial">
+                                            <div class="testimonial__wrapper">
+                                                <div class="testimonial__avatar"><img src="./images/avatar-3.jpg" alt="" /></div>
+                                                <div class="testimonial__name">Trần Hoàng Hải / CEO</div>
+                                                <div class="testimonial__text">Nhờ có hệ thống môi giới chúng tôi đã đổi đời</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Brands-->
+                <section class="section">
+                    <div class="container">
+                        <nav class="brands"><a class="brands__item" href="#!"><img src="./images/brand-1.png" alt=""></a><a class="brands__item" href="#!"><img src="./images/brand-2.png" alt=""></a><a class="brands__item" href="#!"><img src="./images/brand-3.png" alt=""></a><a class="brands__item" href="#!"><img src="./images/brand-4.png" alt=""></a><a class="brands__item" href="#!"><img src="./images/brand-5.png" alt=""></a></nav>
+                    </div>
+                </section>
+                <!-- Tin tức-->
+                <section class="section">
+                    <div class="container">
+                        <div class="section__header">
+                            <h2 class="section__title">Tin tức</h2><a class="section__more" href="#!">Hiển thị tất cả</a>
+                        </div>
+                        <div class="news-slider">
+                            <div class="news-slider__pagination"></div>
+                            <div class="swiper-container news-slider__container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="news">
+                                            <div class="news__wrapper">
+                                                <div class="news__frame"><img src="./images/news-1.jpg" alt="" /></div><a class="news__overlay" href="#!">
+                                                    <div class="news__time">Thứ 5, ngày 27/4/2021</div>
+                                                    <div class="news__subtitle">Dự án mở được mở bán 23</div>
+                                                    <div class="news__desc">Dự án chỉ có 12 người nắm được thông tin</div>
+                                                    <div class="mt-auto">
+                                                        <div class="news__link">Xem thêm ></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <h3 class="news__title"><a href="#!"> Dự án mở được mở bán 23</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="news">
+                                            <div class="news__wrapper">
+                                                <div class="news__frame"><img src="./images/news-1.jpg" alt="" /></div><a class="news__overlay" href="#!">
+                                                    <div class="news__time">Thứ 5, ngày 27/4/2021</div>
+                                                    <div class="news__subtitle">Dự án mở được mở bán 24</div>
+                                                    <div class="news__desc">Dự án chỉ có 12 người nắm được thông tin</div>
+                                                    <div class="mt-auto">
+                                                        <div class="news__link">Xem thêm ></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <h3 class="news__title"><a href="#!"> Dự án mở được mở bán 24</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="news">
+                                            <div class="news__wrapper">
+                                                <div class="news__frame"><img src="./images/news-1.jpg" alt="" /></div><a class="news__overlay" href="#!">
+                                                    <div class="news__time">Thứ 5, ngày 27/4/2021</div>
+                                                    <div class="news__subtitle">Dự án mở được mở bán 25</div>
+                                                    <div class="news__desc">Dự án chỉ có 12 người nắm được thông tin</div>
+                                                    <div class="mt-auto">
+                                                        <div class="news__link">Xem thêm ></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <h3 class="news__title"><a href="#!"> Dự án mở được mở bán 25</a></h3>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="news">
+                                            <div class="news__wrapper">
+                                                <div class="news__frame"><img src="./images/news-1.jpg" alt="" /></div><a class="news__overlay" href="#!">
+                                                    <div class="news__time">Thứ 5, ngày 27/4/2021</div>
+                                                    <div class="news__subtitle">Dự án mở được mở bán 26</div>
+                                                    <div class="news__desc">Dự án chỉ có 12 người nắm được thông tin</div>
+                                                    <div class="mt-auto">
+                                                        <div class="news__link">Xem thêm ></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <h3 class="news__title"><a href="#!"> Dự án mở được mở bán 26</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- footer-->
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__grid">
+                        <div class="footer__col"><a class="footer__logo logo" href="#!"><img src="./images/logo.png" alt="" /></a>
+                            <div class="footer__copyright">@2021 hệ thống môi giới BDS</div>
+                        </div>
+                        <div class="footer__col">
+                            <ul class="f-menu">
+                                <li><a href="#!">Giới thiệu</a></li>
+                                <li><a href="#!"> Điều khoản sử dụng</a></li>
+                                <li><a href="#!"> Quy định sử dụng</a></li>
+                                <li><a href="#!"> Trợ giúp</a></li>
+                                <li><a href="#!"> Chương trình liên kết</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <ul class="f-menu">
+                                <li><a href="#!">Địa chỉ</a></li>
+                                <li><a href="#!">Cơ hội việc làm</a></li>
+                                <li><a href="#!">Giới thiệu</a></li>
+                                <li><a href="#!">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__col">
+                            <form class="f-form" action="#!">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="Đăng ký nhận bản tin" />
+                                    <div class="input-group-append">
+                                        <button class="input-group-text"><i class="fa fa-envelope"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                            <nav class="f-social mt-30"><a href="#!"><i class="fa fa-fw fa-twitter"></i></a><a href="#!"><i class="fa fa-fw fa-facebook"></i></a><a href="#!"><i class="fa fa-fw fa-google"></i></a><a href="#!"><i class="fa fa-fw fa-dribbble"></i></a><a href="#!"><i class="fa fa-fw fa-pinterest"></i></a></nav>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- modals + sticky widgets-->
+        <button class="btn-movetop js-scroll-to" type="button" data-target="body"><i class="fa fa-arrow-up"></i></button>
+    </body>
+</html>
